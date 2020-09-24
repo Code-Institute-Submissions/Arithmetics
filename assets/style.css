@@ -9,7 +9,7 @@ body {
   background: black;
 }
 
-#header {
+.header {
   color: orange;
   margin-top: 40px;
   margin-bottom: 40px;
