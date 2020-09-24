@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+ 
+body {
+  background: black;
+}
+
+#header {
+  color: orange;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#text {
+  color: white;
+}
+
+
+
+.box{
+    box-sizing:border-box;
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background: rgb(179, 16, 95);
+    margin: 50px auto;
+    
+}
+
+#num1, #num2{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    box-sizing: border-box;
+    
+}
+
+#num1{
+    border: solid 4px rgb(255, 242, 62);
+    width: 15%;
+    height: 25%;
+}
+
+#num2{
+    border: solid 4px rgb(72, 255, 0);
+    width: 15%;
+    height: 25%;
+}
+
+#add, #equal{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+input{
+    border: solid 2px cyan;
+  padding-left: 25px;
+    text-decoration: none;
+}
+
+button{
+    
+    width: 20%s;
+    background: red;
+    color: white;
+    border: 1px solid lightgrey;
+}
