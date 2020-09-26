@@ -47,11 +47,10 @@ function validateAnswer(event) {
    let answer = getAnswer(operation)
 
     if (isAnswerValid(operation, answer)){
-        alert("That is Correct!");
+        msg.innerText = `Well done, that is correct!`;
         resetNumbers();
     } else {
-        alert('Sorry. Incorrect. The correct answer was ' + total + '.')
-        //window.location.reload()
+        msg.innerText = `Sorry. Incorrect. The correct answer was ${totalTwo} .`;
         resetNumbers();
 
     }
