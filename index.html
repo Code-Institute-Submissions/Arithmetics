@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
     <link rel="stylesheet" href="assets/style.css">
     <title>Arithmetics Game</title>
 </head>
 <body>
-<header class="sticky-top">
+<header>
          <div class="container-fluid menubar">
             <nav class="navbar navbar-dark navbar-expand-sm">
                <a href="index.html" class="navbar-brand hvr-push"> Arithmetics</a>
@@ -18,9 +19,9 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav mr-auto mycolor">
-                     <li class="nav-item mr-2"><a class="nav-link hvr-push" href="#programs">Addition</a></li>
-                     <li class="nav-item mr-2"><a class="nav-link hvr-push" href="#trainers">Multiplication</a></li>
-                     <li class="nav-item mr-2"><a class="nav-link hvr-push" href="#testimonials">Leaderboard</a></li>
+                     <li class="nav-item mr-2"><a class="nav-link hvr-push" href="#addition">Addition</a></li>
+                     <li class="nav-item mr-2"><a class="nav-link hvr-push" href="#multiplication">Multiplication</a></li>
+                     <li class="nav-item mr-2"><a class="nav-link hvr-push" href="#leaderboard">Leaderboard</a></li>
                   </ul>
                </div>
             </nav>
@@ -38,7 +39,7 @@
          </div>
       </div>
     
- <section class="container">
+ <section id="addition" class="container">
  <h2 class="header">Addition</h2>
  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quia, repellendus excepturi animi reiciendis doloribus doloremque iste consequatur in at numquam quis culpa rerum qui repellat sapiente, quam enim nihil?</p>
  <div class="container">
@@ -51,13 +52,13 @@
         <input type="number" id="guessaddition">
     </div>
     
-        <button id="btn">Check</button>
+        <button class="hvr-push" id="btn">Check</button>
   
 </div>
 </div>
  </section>
 
- <section class="container">
+ <section id="multiplication" class="container">
  <h2 class="header">Multiplication</h2>
  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptates. Officiis iusto iure hic omnis placeat quidem aperiam ullam aspernatur odit, repellat, sapiente at consequuntur magnam. Esse omnis magni laboriosam!</p>
  <div class="container">
@@ -70,7 +71,7 @@
         <input type="number" id="guessmultiplication">
     </div>
     
-        <button id="btnmultiplication">Check</button>
+        <button class="hvr-push" id="btnmultiplication">Check</button>
   
 </div>
 </div>

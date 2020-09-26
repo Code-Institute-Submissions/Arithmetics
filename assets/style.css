@@ -71,8 +71,8 @@ body {
 }
 .header {
   color: orange;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 h1:after {
@@ -162,6 +162,7 @@ input {
     border: solid 2px cyan;
   padding-left: 25px;
     text-decoration: none;
+    font-family: 'Noto Serif', serif;
 }
 
 button{
