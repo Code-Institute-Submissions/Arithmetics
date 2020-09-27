@@ -2,8 +2,7 @@
 
 let total = 0;
 let totalTwo = 0;
-const ADDITION_OPERATION = "addition";
-const MULTIPLICATION_OPERATION = "multiplication";
+
 
 
 function resetNumbers() {
@@ -46,12 +45,20 @@ function validateAnswer(event) {
    let answer = getAnswer(operation)
 
     if (isAnswerValid(operation, answer)){
-        msg.innerText = `Well done, that is correct!`;
+        msg.innerText = USER_SUCCESS;
         resetNumbers();
     } else {
-        msg.innerText = `Sorry. Incorrect. The correct answer was ${totalTwo} .`;
+        msg.innerText = USER_FAIL + getOriginalAnswer(operation);
         resetNumbers();
 
+    }
+}
+
+function getOriginalAnswer(operation) {
+  if (operation === ADDITION_OPERATION) {
+        return  total;
+    } else if (operation == MULTIPLICATION_OPERATION) {
+        return totalTwo;
     }
 }
 
@@ -102,3 +109,37 @@ function isAnswerValid(elemId, answer) {
 
 })();
 
+ // Declarations to keep the compiler happy.
+/**
+ * @param {!google.maps.Map} map
+ * @param {!Array<!google.maps.Marker>} markers
+ * @param {!Object} options
+ * @constructor
+ */
+function MarkerClusterer(map, markers, options) {}
+
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: { lat: 54.5260, lng: 15.2551  },
+  });
+  // Create an array of alphabetical characters used to label the markers.
+  const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  // Add some markers to the map.
+  // Note: The code uses the JavaScript Array.prototype.map() method to
+  // create an array of markers based on a given "locations" array.
+  // The map() method here has nothing to do with the Google Maps API.
+  const markers = LOCATIONS.map((location, i) => {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length],
+    });
+  });
+  // Add a marker clusterer to manage the markers.
+  const markerCluster = new MarkerClusterer(map, markers, {
+    imagePath: MARKER_URL
+  });
+}
+
+ 
+ 
