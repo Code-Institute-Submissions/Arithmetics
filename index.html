@@ -125,21 +125,21 @@
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
+      <td>Olivier</td>
       <td>31</td>
-      <td>Sweden</td>
+      <td>France</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Larry</td>
+      <td>Christinsen</td>
       <td>28</td>
-      <td>USA</td>
+      <td>Denmark</td>
     </tr>
   </tbody>
 </table>
 </section>
 
-<div id="map"></div>
+<div class="container" id="map"></div>
 
    <!--Footer (Used and modified code from Code Institute Love running mini project)-->
       <footer>
@@ -164,16 +164,52 @@
          </div>
          </div>
       </footer>
-<script>
- function initMap() {
-  var map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
+ 
+ <script>
+ // Declarations to keep the compiler happy.
+/**
+ * @param {!google.maps.Map} map
+ * @param {!Array<!google.maps.Marker>} markers
+ * @param {!Object} options
+ * @constructor
+ */
+function MarkerClusterer(map, markers, options) {}
+
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: { lat: 54.5260, lng: 15.2551  },
+  });
+  // Create an array of alphabetical characters used to label the markers.
+  const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  // Add some markers to the map.
+  // Note: The code uses the JavaScript Array.prototype.map() method to
+  // create an array of markers based on a given "locations" array.
+  // The map() method here has nothing to do with the Google Maps API.
+  const markers = locations.map((location, i) => {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length],
+    });
+  });
+  // Add a marker clusterer to manage the markers.
+  const markerCluster = new MarkerClusterer(map, markers, {
+    imagePath:
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 }
+const locations = [
+ { lat: 55.378051, lng: -3.435973 },
+      { lat:46.227638, lng: 2.213749},
+      { lat:56.26392, lng: 9.501785}
+];
+ 
+ 
+ </script>
 
-</script> 
 
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF2ugcxTq07Z6Gs65MXYUVs74P6ocgnQk&callback=initMap"></script>
  <script src="https://kit.fontawesome.com/d686c4973c.js" crossorigin="anonymous"></script>
