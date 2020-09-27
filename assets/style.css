@@ -179,6 +179,12 @@ button{
   
 }
 
+.table {
+    width: 80%;
+    margin-bottom: 1rem;
+    background-color: rgb(196, 192, 194);
+}
+
 .footerpage {
 	-ms-flex: 0 0 100%;
 	flex: 0 0 100%;
