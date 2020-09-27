@@ -1,19 +1,5 @@
 "use strict";
 
-let map;
-function initMap() {
-  const localContextMapView = new google.maps.localContext.LocalContextMapView({
-    element: document.getElementById('map'),
-    placeTypePreferences: ['restaurant', 'tourist_attraction'],
-    maxPlaceCount: 12,
-  });
-  map = localContextMapView.map;
-  map.setOptions({
-    center: {lat: 51.507307, lng: -0.081140},
-    zoom: 14
-  });
-}
-
 let total = 0;
 let totalTwo = 0;
 const ADDITION_OPERATION = "addition";
