@@ -104,7 +104,10 @@
   </div>
 </div>
 
+<div class="container" id="map"></div>
+
    <!--Footer (Used and modified code from Code Institute Love running mini project)-->
+      <footer>
          <div class= "container-fluid">
          <div class="row no-gutter">
             <div class="col-12">
@@ -125,13 +128,19 @@
             </div>
          </div>
          </div>
- <footer>
- 
- 
- </footer>
+      </footer>
+<script>
+ function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
 
+</script> 
 
-
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF2ugcxTq07Z6Gs65MXYUVs74P6ocgnQk&callback=initMap"></script>
  <script src="https://kit.fontawesome.com/d686c4973c.js" crossorigin="anonymous"></script>
     <script src="script/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

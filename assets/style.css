@@ -206,3 +206,7 @@ button{
 	padding: 6%;
 	color: black;
 }
+
+div#map {min-height: 360px;}
+
+
