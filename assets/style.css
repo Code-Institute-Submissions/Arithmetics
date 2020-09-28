@@ -75,7 +75,7 @@ position: relative;
 .header {
   color: orange;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 h1:after {
@@ -187,6 +187,11 @@ button{
     background-color: rgb(196, 192, 194);
 }
 
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid orange;
+}
+
 
 #myFooter {
     margin-top: 2%;
@@ -202,6 +207,7 @@ button{
 }
 
 .social-media {
+    background-color: #000;
 	text-align: center;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -218,7 +224,7 @@ button{
 	font-size: 40px;
 	margin: 0;
 	padding: 3%;
-	color: black;
+	color: #fff;
 }
 
 div#map {min-height: 360px;}
