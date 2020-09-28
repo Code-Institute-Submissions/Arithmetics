@@ -12,7 +12,7 @@
 body {
 position: relative;
   background: rgb(51, 45, 129);
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Noto Serif';
 
 }
 
@@ -66,13 +66,14 @@ position: relative;
 }
 
 .jumbotron-header {
-	color: #fff;
 	font-weight: bold;
 	font-size: 45px;
 	margin-bottom: 30px;
 	padding-top: 5px;
 }
+
 .header {
+ font-family: 'Noto Serif', cursive;
   color: orange;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -94,6 +95,7 @@ h1:after {
 
 
 .box{
+    font-family: 'Architects Daughter', cursive;
     box-sizing:border-box;
     display: flex;
     height: 40vh;
