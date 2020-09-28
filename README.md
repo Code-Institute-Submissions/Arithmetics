@@ -53,7 +53,7 @@ Used to create the repository and where you push your code to. Used for deployme
 1. [Gitpod](https://www.gitpod.io/): 
 Used to write the code and style and where you push your code to Github.
 
-1. HTML and CSS: For these two I could not find the official websites, which is why I have not provided a link. I used HTML for the structure of the page and CSS to style the page.
+1. HTML, CSS, Javascript: For these I could not find the official websites, which is why I have not provided a link. I used HTML for the structure of the page, CSS to style the page and Javascript to provide interactiveness.
 
 1. [Bootstrap Javascript](https://getbootstrap.com/docs/4.4/getting-started/introduction/): 
 The project uses Bootstrap JS scripts to be able to use the dropdown menu on the navigation bar. The drop down menu is active on the smaller screens.
@@ -75,6 +75,21 @@ Google maps was used to add a map with markers for the topscorers on the table.
 
 1. [Balsamiq](https://balsamiq.com/): 
 Used to create my initial wireframes at the start of the project.
+
+## Issues
+
+#### Issues Fixed
+- When running my code through a validator, one of the errors I received was, my comments had too many hyphens. I have now corrected this, and placed only two hyphens on either side of my comment.
+- When loading my page, some images would take much longer to load then others. I quickly realised the photos were too large, so I resized them proportionately using **adjust size** under tools on Mac.
+- In regards to my contact form, when I left the Full name field empty, I would not get an error message. I fixed this by going onto Bootstrap and adding the relevant invalidator code to my contact form.
+
+#### Issues Pending
+- For the collapsed dropdown menu, when you click on an option, the drop down menu section does not go back to it's original state automatically. You have to click on
+the hamburger icon again for it collapse back.
+- If I try to push the navigation bar more centrally, the options on the drop down menu seem to be pushed out of the menu section. Which is why I have left it as originally from the bootstrap page.
+- When I click on the relevant feature on my navigation bar, ideally I would want to be redirected to the header of that feature. However, on mine it takes you to the text on that section.
+- When you submit the contact form correctly, the URL changes and the page reloads. Having spoke to my mentor, I have been made aware that this can be fixed through the use of Javascript. However seeing 
+as that is outside the scope of this project, I have added this to future features I would like to add.
 
 
 ## Deployment
