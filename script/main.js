@@ -1,5 +1,5 @@
 "use strict";
-
+// Originally used code from JS math addition game, which I amended and restructured. Credits are in README.md//
 let total = 0;
 let totalTwo = 0;
 
@@ -109,7 +109,7 @@ function isAnswerValid(elemId, answer) {
 
 })();
 
- // Declarations to keep the compiler happy.
+ // Declarations to keep the compiler happy. This code was taken from Google maps API website.
 /**
  * @param {!google.maps.Map} map
  * @param {!Array<!google.maps.Marker>} markers
@@ -126,9 +126,6 @@ function initMap() {
   // Create an array of alphabetical characters used to label the markers.
   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   // Add some markers to the map.
-  // Note: The code uses the JavaScript Array.prototype.map() method to
-  // create an array of markers based on a given "locations" array.
-  // The map() method here has nothing to do with the Google Maps API.
   const markers = LOCATIONS.map((location, i) => {
     return new google.maps.Marker({
       position: location,
