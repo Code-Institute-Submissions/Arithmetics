@@ -1,41 +1,28 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Arithmetic Test
 
-Welcome Ladev25,
+The main aim of my project is a very simple and concise one; to create a site where you can go and test your basic arithmetic skills. I gained inspiration for this project,
+because when I was young me and my siblings would to randomly test each other on the spot, from addition to multiplication.
+The website's target market is anyone interested in arithmetics, from young children to adults who enjoy quick maths games.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Click on this link to view the live site. [Visit Arithmetics](https://ladev25.github.io/Arithmetics/).
 
-## Gitpod Reminders
+## UX
+ I aim to do this by creating a website which is both easy to navigate and user friendly. The site will have a minimalistic feel, by that I mean, the site will focus on the game and not an overload of text. I aim to provide just the key information needed for potential users. 
+The site will feature different games, both a simple addition game and a slightly harder multiplication game.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Colour and Typography
+In regards to the design, I opted for a simple colour scheme. The main colours are a darker shade of blue, orange, grey and some black and white. Additionally on the hover effect there is a shade of orange for the navigation bar.
+For the typography, I opted to use Noto Serif and Architects Daughter for the actual game.
 
-`python3 -m http.server`
+### User Stories
 
-A blue button should appear to click: *Make Public*,
+#### User
+- As a user I want to be able to navigate the page easily. 
+- Additionally, I want to be able to easily play the game and know if my answer was correct. Whenever I get an answer incorrect, I want to know what the right answer was. 
+- Lastly, I would like to be able to see the current leader board plus the social media pages for me to interact and follow.
 
-Another blue button should appear to click: *Open Browser*.
+#### Website owner
+- As the website owner, I want to add a navigation form, so that users can click on each, and it will easily navigate them to that section of the page.
+- By adding a check button, users can check if their answer was correct, this will make it better because they will know the answer before going on to the next maths question.
+- As the website owner, I want our social media links to be clear at the bottom of the page, this will lead to more activity on our pages. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
