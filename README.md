@@ -44,6 +44,11 @@ In future I would make a few additions.
 - I would also add a way to submit the score so users can go into the leader board if they get a top score.
 - Lastly, I would want a feature to make the sums and addition questions either easy or difficult, to accommodate different levels.
 
+### Wireframes
+Here is the link to my original [Wireframes](https://github.com/Ladev25/Arithmetics/blob/master/wireframes/MS2.pdf). I have created a wireframe for each feature, additionally I have also created a wireframe for both mobile and desktop view. These wireframes were made at the start of my project, which is
+why they may be slighlty different to my website, which I have modified over time.
+
+
 ## Technologies Used
 Here is a list of all of the languages, frameworks, libraries, and any other tools that I have used to construct my project. 
 
