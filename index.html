@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Arithmetics Game</title>
-</head>
-<body>
-<!--Navigation Bar (Used and modified code from Bootstrap & Code Institute Whiskey Drop mini project)-->
-<header>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+      <link rel="stylesheet" href="assets/style.css">
+      <title>Arithmetics Game</title>
+   </head>
+   <body>
+      <!--Navigation Bar (Used and modified code from Bootstrap & Code Institute Whiskey Drop mini project)-->
+      <header>
          <div class="container-fluid menubar">
             <nav class="navbar navbar-dark navbar-expand-sm">
                <a href="index.html" class="navbar-brand hvr-push"> Arithmetics</a>
@@ -35,124 +35,111 @@
                <section class="callout jumbotron text-center header">
                   <h1 class="jumbotron-header header">Arithmetic Test!</h1>
                   <p class="text">Arithmetic skills are used by adults and children alike throughout their daily lives, not just in maths tests! 
-                  Test yourself today with both an addition and multiplication test. Will <strong>YOU</strong> make the leaderboard?</p>
+                     Test yourself today with both an addition and multiplication test. Will <strong>YOU</strong> make the leaderboard?
+                  </p>
                </section>
             </div>
          </div>
       </div>
-
- <!--Addition game (Used and modified code from Bootstrap & JS maths addition game)-->   
- <section id="addition" class="container">
- <h2 class="header">Addition</h2>
- <p class="text">Adding two numbers together, can't be that had right? Well have a go for yourself and see how many you can get right in a row.</p>
- <div class="container">
-  <div class=" row box">
-    <span id="num1">5</span>
-    <span id="add">+</span>
-    <span id="num2">5</span>
-    <span id="equal">=</span>
-    <div>
-        <input type="number" id="guessaddition">
-    </div>
-    
-        <button id="btn" type="button" class="hvr-push" data-toggle="modal" data-target="#myModal">
-  Check
-</button>
-  
-</div>
-</div>
- </section>
-
-<!--Addition game (Used and modified code from Bootstrap & JS maths addition game)-->  
- <section id="multiplication" class="container">
- <h2 class="header">Multiplication</h2>
- <p class="text">Did you find the addition test too easy? Time to test yourself in the multiplication test, good luck!</p>
- <div class="container">
-  <div class="row box">
-    <span id="num3">5</span>
-    <span id="multiply">x</span>
-    <span id="num4">5</span>
-    <span id="equal2">=</span>
-    <div>
-        <input type="number" id="guessmultiplication">
-    </div>
-    
-        <button id="btnmultiplication" type="button" class="hvr-push" data-toggle="modal" data-target="#myModal">
-  Check
-</button>
-
-  
-</div>
-</div>
- </section>
-    
-
-
-<!-- Modal (Bootstrap) -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-       
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <!--Addition game (Used and modified code from Bootstrap & JS maths addition game)-->   
+      <section id="addition" class="container">
+         <h2 class="header">Addition</h2>
+         <p class="text">Adding two numbers together, can't be that had right? Well have a go for yourself and see how many you can get right in a row.</p>
+         <div class="container">
+            <div class=" row box">
+               <span id="num1">5</span>
+               <span id="add">+</span>
+               <span id="num2">5</span>
+               <span id="equal">=</span>
+               <div>
+                  <input type="number" id="guessaddition">
+               </div>
+               <button id="btn" type="button" class="hvr-push" data-toggle="modal" data-target="#myModal">
+               Check
+               </button>
+            </div>
+         </div>
+      </section>
+      <!--Addition game (Used and modified code from Bootstrap & JS maths addition game)-->  
+      <section id="multiplication" class="container">
+         <h2 class="header">Multiplication</h2>
+         <p class="text">Did you find the addition test too easy? Time to test yourself in the multiplication test, good luck!</p>
+         <div class="container">
+            <div class="row box">
+               <span id="num3">5</span>
+               <span id="multiply">x</span>
+               <span id="num4">5</span>
+               <span id="equal2">=</span>
+               <div>
+                  <input type="number" id="guessmultiplication">
+               </div>
+               <button id="btnmultiplication" type="button" class="hvr-push" data-toggle="modal" data-target="#myModal">
+               Check
+               </button>
+            </div>
+         </div>
+      </section>
+      <!-- Modal (Bootstrap) -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <p id="msg"></p>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+            </div>
+         </div>
       </div>
-      <div class="modal-body">
-       <p id="msg"></p>
+      <!--Leaderboard (Used and modified code from Bootstrap)-->  
+      <section id="leaderboard" class="container">
+         <h2 class="header">Leaderboard</h2>
+         <p class="text">Below you will see the top 3 scores from users in Europe, we combine your top score in addition and multiplication to give a total. Send us your top scores on any of our social media platforms, and it could be your name on our table!</p>
+         <table class="table">
+            <thead>
+               <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Score</th>
+                  <th scope="col">Country</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>35</td>
+                  <td>United Kingdom</td>
+               </tr>
+               <tr>
+                  <th scope="row">2</th>
+                  <td>Olivier</td>
+                  <td>31</td>
+                  <td>France</td>
+               </tr>
+               <tr>
+                  <th scope="row">3</th>
+                  <td>Christinsen</td>
+                  <td>28</td>
+                  <td>Denmark</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+      <div class="container">
+         <div class="row" id="map" ></div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--Leaderboard (Used and modified code from Bootstrap)-->  
-<section id="leaderboard" class="container">
-<h2 class="header">Leaderboard</h2>
- <p class="text">Below you will see the top 3 scores from users in Europe, we combine your top score in addition and multiplication to give a total. Send us your top scores on any of our social media platforms, and it could be your name on our table!</p>
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Name</th>
-      <th scope="col">Score</th>
-      <th scope="col">Country</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>35</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Olivier</td>
-      <td>31</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Christinsen</td>
-      <td>28</td>
-      <td>Denmark</td>
-    </tr>
-  </tbody>
-</table>
-</section>
-
-<div class="container">
-<div class="row" id="map" ></div>
-</div>
-
-   <!--Footer (Used and modified code from Code Institute Love running mini project)-->
+      <!--Footer (Used and modified code from Code Institute Love running mini project)-->
       <footer id="myFooter">
          <div class= "container-fluid">
-         <div class="row no-gutter">
-            <div class="col-12">
+            <div class="row no-gutter">
+               <div class="col-12">
                   <ul class="social-media">
                      <li>
                         <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook hvr-push"></i></a>
@@ -167,21 +154,18 @@
                         <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram hvr-push"></i></a>
                      </li>
                   </ul>
+               </div>
             </div>
          </div>
-         </div>
       </footer>
- 
- 
-
-<script src="script/const.js"></script>
-<script src="script/main.js"></script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF2ugcxTq07Z6Gs65MXYUVs74P6ocgnQk&callback=initMap"></script>
- <script src="https://kit.fontawesome.com/d686c4973c.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+      <script src="script/const.js"></script>
+      <script src="script/main.js"></script>
+      <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+      <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF2ugcxTq07Z6Gs65MXYUVs74P6ocgnQk&callback=initMap"></script>
+      <script src="https://kit.fontawesome.com/d686c4973c.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   </body>
 </html>

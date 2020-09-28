@@ -1,25 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Noto+Serif:wght@400;700&display=swap');
-
 * {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-  }
-
-  
-  
- 
-body {
-position: relative;
-  background: rgb(51, 45, 129);
-  font-family: 'Noto Serif';
-
+	padding: 0;
+	margin: 0;
+	text-align: center;
 }
+
+body {
+	position: relative;
+	background: rgb(51, 45, 129);
+	font-family: 'Noto Serif';
+}
+
 
 /*--Navbar(Used and modified code from Code Institute Whiskey Drop mini project)--*/
 
 .menubar {
-	
 	top: 0;
 	left: 0;
 	padding-left: 0;
@@ -73,109 +68,112 @@ position: relative;
 }
 
 .header {
- font-family: 'Noto Serif', cursive;
-  color: #FFA500;
-  margin-top: 10px;
-  margin-bottom: 30px;
+	font-family: 'Noto Serif', cursive;
+	color: #FFA500;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 h1:after {
-    content:' ';
-    display:block;
-    border:1px solid #FFA500;
-    border-radius:4px;
-
+	content: ' ';
+	display: block;
+	border: 1px solid #FFA500;
+	border-radius: 4px;
 }
 
 .text {
-  color: #fff;
-  font-size: 1.4em;
+	color: #fff;
+	font-size: 1.4em;
 }
+
 
 /*--Game Box (Used and modified code from JS maths addition game)--*/
 
-.box{
-    font-family: 'Architects Daughter', cursive;
-    box-sizing:border-box;
-    display: flex;
-    height: 41vh;
-    align-items: center;
-    justify-content: center;
-    background: rgb(196, 192, 194);
-    margin: 50px auto;
-    
+.box {
+	font-family: 'Architects Daughter', cursive;
+	box-sizing: border-box;
+	display: flex;
+	height: 41vh;
+	align-items: center;
+	justify-content: center;
+	background: rgb(196, 192, 194);
+	margin: 50px auto;
 }
 
-#num1, #num2{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    font-size: 34px;
-    font-weight: bold;
-    box-sizing: border-box;
-    
+#num1,
+#num2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 34px;
+	font-weight: bold;
+	box-sizing: border-box;
 }
 
-#num1{
-    border: solid 4px rgb(253, 239, 47);
-    width: 15%;
-    height: 25%;
+#num1 {
+	border: solid 4px rgb(253, 239, 47);
+	width: 15%;
+	height: 25%;
 }
 
-#num2{
-    border: solid 4px rgb(69, 240, 2);
-    width: 15%;
-    height: 25%;
+#num2 {
+	border: solid 4px rgb(69, 240, 2);
+	width: 15%;
+	height: 25%;
 }
 
-#num3, #num4{
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    font-size: 35px;
-    font-weight: bold;
-    box-sizing: border-box;
-    border-radius: 50%;
-    
+#num3,
+#num4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	font-weight: bold;
+	box-sizing: border-box;
+	border-radius: 50%;
 }
 
-#num3{
-    border: solid 4px rgb(253, 239, 47);
-    width: 15%;
-    height: 25%;
+#num3 {
+	border: solid 4px rgb(253, 239, 47);
+	width: 15%;
+	height: 25%;
 }
 
-#num4{
-    border: solid 4px rgb(69, 240, 2);
-    width: 15%;
-    height: 25%;
+#num4 {
+	border: solid 4px rgb(69, 240, 2);
+	width: 15%;
+	height: 25%;
 }
 
-#add, #equal, #equal2{
-    font-weight: bold;
-    font-size: 40px;
-    padding: 5px;
+#add,
+#equal,
+#equal2 {
+	font-weight: bold;
+	font-size: 40px;
+	padding: 5px;
 }
 
-#multiply{
-    font-weight: bold;
-    font-size: 40px;
-    padding: 5px;
+#multiply {
+	font-weight: bold;
+	font-size: 40px;
+	padding: 5px;
 }
+
 input {
-    width: 70%;
-    border: solid 2px cyan;
-  padding-left: 25px;
-    text-decoration: none;
-    font-family: 'Noto Serif', serif;
+	width: 70%;
+	border: solid 2px cyan;
+	padding-left: 25px;
+	text-decoration: none;
+	font-family: 'Noto Serif', serif;
 }
 
-button{
-    font-size: 25px;
-    background: rgb(238, 5, 5);
-    color: #fff;
-    border: 2px solid #000;
+button {
+	font-size: 25px;
+	background: rgb(238, 5, 5);
+	color: #fff;
+	border: 2px solid #000;
 }
+
 
 /*--End of Game Box (Used and modified code from JS maths addition game)--*/
 
@@ -183,28 +181,28 @@ button{
 /*--Bootstrap code (Used and modified with Chrome developer tools)--*/
 
 .col-12 {
-    padding-right: 0px;
-    padding-left: 0px;
-  
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 .table {
-    padding: 0;
-    width: 100%;
-    margin-bottom: 1rem;
-    background-color: rgb(196, 192, 194);
+	padding: 0;
+	width: 100%;
+	margin-bottom: 1rem;
+	background-color: rgb(196, 192, 194);
 }
 
 .table thead th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #FFA500;
+	vertical-align: bottom;
+	border-bottom: 2px solid #FFA500;
 }
+
 
 /*--Footer (Used and modified code from Code Institute Love Running mini project)--*/
 
 #myFooter {
-    margin-top: 2%;
-    border-top: 2px solid #000;
+	margin-top: 2%;
+	border-top: 2px solid #000;
 }
 
 .footerpage {
@@ -216,7 +214,7 @@ button{
 }
 
 .social-media {
-    background-color: #000;
+	background-color: #000;
 	text-align: center;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -236,6 +234,6 @@ button{
 	color: #fff;
 }
 
-div#map {min-height: 360px;}
-
-
+div#map {
+	min-height: 360px;
+}
