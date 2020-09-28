@@ -68,7 +68,76 @@ Cdnjs provided the library for the hover over effects on the navigation bar.
 This technically did not help me create the project, however I used this website to format both my HTML and CSS code. This will make it easier for anyone reading my code in the future.
 
 1. [Google Fonts](https://fonts.google.com/):
-Google Fonts provided the font for my website. I used Cairo, with different font weights.
+Google Fonts provided the font for my website. 
+
+1. [Google Maps](https://developers.google.com/maps/documentation/javascript/overview#all): 
+Google maps was used to add a map with markers for the topscorers on the table.
 
 1. [Balsamiq](https://balsamiq.com/): 
 Used to create my initial wireframes at the start of the project.
+
+
+## Deployment
+To deploy my project, I took the following steps.
+
+### Deploying via Github (Available to repository owner only)
+
+1. To publish the project go on to the **Github Pages**.
+1. The go on to the **repository** in Github and select the **settings** tab.
+1. From there if you scroll down to the Github Pages section and in the source dropdown, select **none** for source and then select **"master branch"**.
+1. The page then reloaded. When you then scroll down to the GitHub Pages section again, you'll see a message that states that was **site is ready to be published**, with a link.
+1. If you open this link, it will take you to your site. 
+1. Should take no longer than a minute on average.
+1. However, if after 10 minutes, the link doesn't work, try to repeat the process again (selecting **none** for source, then selecting **master branch**).
+
+### Running Locally (Available to anyone)
+
+1. Go to the **GitHub pages**.
+1. Go to the relevant **repository**.
+1. Select the '**Clone or Download**' dropdown.
+1. Then **Download Zip**.
+1. Once downloaded, if you click on it, you will be taken to the **downloaded folder**.
+1. When you open the folder, you will need to open the **index.html**.
+1. Now you should see the project site on your desktop.
+
+## Credits
+
+In regards to my project, I have used code from a few different sources and modified it to make it suitable to my own project. I will list the sites I used below:
+I have also left a comments on my HTML, CSS and Javascript, on top of sections which had code from other sources. The comments highlight the source of the code.
+
+### Code Credits
+
+I will list the code credits below:
+
+#### Navigation Bar
+- [Code Institute](https://codeinstitute.net/): My Navigation bar took inspiration from the code institute 'Whiskey Drop' mini project.
+- [Bootstrap Navbar](https://getbootstrap.com/docs/4.4/components/navbar/): The actual code can be found on the Bootstrap page.
+#### Landing Page/ Title
+- [Code Institute](https://codeinstitute.net/): My landing page took inspiration from the code institute 'Whiskey Drop' mini project.
+- [Bootstrap Jumbotron](https://getbootstrap.com/docs/4.4/components/jumbotron/): The actual code can be found on the Bootstrap page link I have provided.
+####  Addition and Multiplication game
+- [Bootstrap](https://getbootstrap.com/docs/4.0/layout/overview/): The actual code can be found on the Bootstrap page.
+#### Leaderboard
+- [Bootstrap table](https://getbootstrap.com/docs/4.0/content/tables/): Used code for the purpose of the table.
+#### Google Maps API
+- [Google Maps](https://developers.google.com/maps/documentation/javascript/overview#all): Google maps was used to add a map with markers for the topscorers on the table.
+
+
+### Acknowledgements
+
+I received inspiration and code for this project from looking at the website which I have listed below:
+
+- [JS Math addition App](https://jsbeginners.com/javascript-math-addition-app/):
+I initially saw this game and it gave me the motivation to create this project. I have used the code and amended it to suit my project. 
+Additionally, I have left a comment on top of the code which I used and amended.
+
+Plus, I ofcourse used code from previous projects on Code Institute, but as mentioned, I have commented where specific code has been used.
+
+Lastly, I have recieved great support from my mentor Rohit, especially with my Javascript code, plus the Tutor team at Code Institute and fellow coders on Slack.
+
+
+
+
+
+
+
