@@ -92,13 +92,13 @@ h1:after {
   font-size: 1.4em;
 }
 
-
+/*--Game Box (Used and modified code from JS maths addition game)--*/
 
 .box{
     font-family: 'Architects Daughter', cursive;
     box-sizing:border-box;
     display: flex;
-    height: 40vh;
+    height: 41vh;
     align-items: center;
     justify-content: center;
     background: rgb(196, 192, 194);
@@ -110,20 +110,20 @@ h1:after {
     display:flex;
     align-items:center;
     justify-content: center;
-    font-size: 35px;
+    font-size: 34px;
     font-weight: bold;
     box-sizing: border-box;
     
 }
 
 #num1{
-    border: solid 4px rgb(255, 242, 62);
+    border: solid 4px rgb(253, 239, 47);
     width: 15%;
     height: 25%;
 }
 
 #num2{
-    border: solid 4px rgb(72, 255, 0);
+    border: solid 4px rgb(69, 240, 2);
     width: 15%;
     height: 25%;
 }
@@ -140,13 +140,13 @@ h1:after {
 }
 
 #num3{
-    border: solid 4px rgb(255, 242, 62);
+    border: solid 4px rgb(253, 239, 47);
     width: 15%;
     height: 25%;
 }
 
 #num4{
-    border: solid 4px rgb(72, 255, 0);
+    border: solid 4px rgb(69, 240, 2);
     width: 15%;
     height: 25%;
 }
@@ -171,11 +171,17 @@ input {
 }
 
 button{
-    font-size: 30px;
+    font-size: 25px;
     background: rgb(238, 5, 5);
     color: #fff;
     border: 2px solid #000;
 }
+
+/*--End of Game Box (Used and modified code from JS maths addition game)--*/
+
+
+/*--Bootstrap code (Used and modified with Chrome developer tools)--*/
+
 .col-12 {
     padding-right: 0px;
     padding-left: 0px;
@@ -194,6 +200,7 @@ button{
     border-bottom: 2px solid #FFA500;
 }
 
+/*--Footer (Used and modified code from Code Institute Love Running mini project)--*/
 
 #myFooter {
     margin-top: 2%;
