@@ -23,8 +23,8 @@ function clearAnswers() {
 * @param {String} operationType  name of arithematic operation. e.g. addition.
 **/
 function generateNumbers(elemOne, elemTwo, operationType) {
-    let firstNumber = parseInt(Math.random()*10);
-    let secondNumber = parseInt(Math.random()*10);
+    let firstNumber = parseInt(Math.random()*15);
+    let secondNumber = parseInt(Math.random()*15);
 
     if (operationType === MULTIPLICATION_OPERATION) {
         totalTwo = firstNumber * secondNumber;
