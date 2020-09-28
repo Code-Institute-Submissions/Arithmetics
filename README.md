@@ -81,6 +81,61 @@ Google maps was used to add a map with markers for the topscorers on the table.
 1. [Balsamiq](https://balsamiq.com/): 
 Used to create my initial wireframes at the start of the project.
 
+## Testing
+I have only conducted manual tests. For each of the below tests, I have tested using **Chrome developer tools**, tested all
+screen sizes available and different devices by clicking **Inspect** elements. Including the following below;
+
+1. Moto G4
+1. Galaxy S5
+1. Pixel 2
+1. Pixel 2 XL
+1. iPhone 5/SE
+1. iPhone 6/7/8
+1. iPhone X
+1. iPad
+1. iPad Pro
+
+The site functions correctly on all formats, I have tested this on multiple devices, including my MacBook Pro and a chromebook too. **All user stories have been tested and all meet expections**.
+
+The site has also been tested on the following browsers;
+
+- Chrome 
+- Safari
+- Mozilla Firefox 
+- Opera 
+
+Additionally, having used [WC3](https://validator.w3.org/), my HTML code showed up as having no errors. Plus when I used [WC3 (CSS)](https://jigsaw.w3.org/css-validator/), it also showed that I had no errors in my CSS code.
+Lastly, having used [JSlint](https://jslint.com/), there was only one error, having checked on developer tools, it's regarding the Google maps API, however the code functions correctly as it should.
+Spoke to Tutor Support who expalained that there are errors happening on the backend of Google's side.
+#### Hover effects:
+ If you hover over the navbar, each section will turn to a shade of orange, and have a hover effect that makes it change size slighlty. Additionally, if you hover over any of the social media icons, it will have the same effect of changing size.
+
+#### Navigation Bar:
+- If you click on Arithmetics, this will essentially take you to the landing page and refresh the website. 
+- When you click on each of the other sections; Addition, Multiplication and Leaderboard. It will redirect you to the relevant section on the page.
+
+#### Addition and Multiplication game
+- If you enter an input into the box for either game, if the answer is correct then you will get a pop up message confirming it. However, if the answer is incorrect or you check and leave the input field empty, you 
+will get a message saying "Sorry this is incorrect, the answer was...". I have checked this to work on different browsers and screen sizes.
+
+#### Map
+- When the page loads, the map appears correctly with the markers on the right countries (UK, Denmark and France).
+
+#### Footer Page:
+ - By clicking on any of the social media icons, it will redirect you to the relevant page on a separate tab. This is because I have added the 'target_blank' to all links.
+
+
+### Different Screen Sizes
+One of the reasons I decided to use Bootstrap to create this project, was the mobile-first principle and especially the responsiveness. Using the layout meant that, as the screen size 
+increases and decreases, the page responds accordingly. Below is the effects of changing the screen size (**in regards to screen width**);
+
+#### Navigation Bar
+- The navigation will collapse down to a dropdown menu when the screen is 575px and below.
+
+#### Addition and Multiplication game
+- On mobile view, the input value and check box goes below the random numbers and equal value. However, on larger screens they are all inline.
+
+
 ## Issues
 
 #### Issues Fixed
