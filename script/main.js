@@ -1,5 +1,8 @@
 "use strict";
-// Originally used code from JS math addition game, which I amended and restructured. Credits are in README.md//
+/**  Originally used code below from JS math addition game, which I amended and restructured. Credits are in README.md
+ * The original code can be found on that website, additionally I have made a const.js file, where you can find the remaining code
+ **/
+ 
 let total = 0;
 let totalTwo = 0;
 
